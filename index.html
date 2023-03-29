@@ -11,6 +11,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./styles.css">
+
     <title>Homework4 Shopping Cart</title>
 </head>
 
@@ -18,7 +19,8 @@
     <nav class="navBar">
         <div class="header">
             <div class="company">
-                Job Passcard
+                <i class="fa-solid fa-check-double" style="color: aquamarine;"></i>
+                <span>Job</span> Passcard
             </div>
             <div class="menu">
                 <a href="#">About Us</a>
@@ -26,8 +28,8 @@
                 <a href="#">Profile</a>
             </div>
             <div class="login">
-                <a href="#">search</a>
-                <a href="#">cart</a>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
                 <a href="#">Login</a>
                 <a href="#">Sign up</a>
             </div>
@@ -43,20 +45,42 @@
                     <div>Google Doc</div>
                     <div>Used for business</div>
                 </div>
-                <div class="productInfo"></div>
-                <h4>Google Docs</h4>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <select id="gender" name="gender">
-                    <option selected disabled>LV 1-3</option>
-                    <option value="lv1">LV 1</option>
-                    <option value="lv2">LV 2</option>
-                    <option value="lv3">LV 3</option>
+                <div class="productInfo">
+                    <h4>Google Docs</h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <select id="level" name="level">
+                        <option selected disabled>LV 1-3</option>
+                        <option value="lv1">LV 1</option>
+                        <option value="lv2">LV 2</option>
+                        <option value="lv3">LV 3</option>
                   </select>
-
+                <div>THB 150</div>                
+            </div>
             </div>
                 <!-- Second cart box  -->
+                <div class="cartBox">
+                    <i class="fa-solid fa-trash-can"></i>
+                    <div class="thumbnail">
+                        <i class="fa-regular fa-file"></i>
+                        <div>Google Doc</div>
+                        <div>Used for business</div>
+                    </div>
+                    <div class="productInfo">
+                        <h4>Google Docs</h4>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <select id="level" name="level">
+                            <option selected disabled>LV 1-3</option>
+                            <option value="lv1">LV 1</option>
+                            <option value="lv2">LV 2</option>
+                            <option value="lv3">LV 3</option>
+                      </select>
+                    <div>THB 150</div>                
+                </div>
+                </div>
             
         </div>
         <div class="orderInfo">Order Info</div>
